@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-// 가짜 API 호출
-function Example() {
+function GetNews() {
   const [data, setData] = useState(null);
   const onClick = async () => {
     try {
-      const response = await axios.get('https://jsonplaceholder.typicode.com/todos/1');
+      const response = await axios.get(
+        `http://newsapi.org/v2/top-headlines?country=kr&apiKey=${process.env.REACT_APP_API_KEY}`,
+      );
       setData(response.data);
     } catch (e) {
       console.log(e);
@@ -22,4 +23,4 @@ function Example() {
   );
 }
 
-export default Example;
+export default GetNews;

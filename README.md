@@ -12,3 +12,15 @@
 
 - `axios` : 현재 가장 많이 사용되는 자바스크립트 HTTP 클라이언트
   - HTTP 요청을 Promise 기반으로 처리한다.
+
+## Part.1
+
+- newsapi.org 사용법
+
+  - https://newsapi.org/s/south-korea-news-api
+
+- `.env` 파일
+  - newsapi.org의 API Key를 숨기기 위해 작성
+  - REACT_APP_API_KEY=key
+  - 사용 : process.env.REACT_APP_API_KEY
+  - 참고 : https://syki66.github.io/blog/2020/02/23/git-hide-apikey.html
