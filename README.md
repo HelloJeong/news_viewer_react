@@ -29,3 +29,9 @@
 
 - UI 구성
   - 책에서는 styled-components를 사용했기 때문에 복습하는 겸 따라치기
+
+## Part.3
+
+- API 호출 후 데이터 연동
+  - useEffect에 등록하는 함수는 async가 되면 안된다.
+  - 반환해야 하는 값은 cleanup 함수이기 때문
