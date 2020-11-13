@@ -1,10 +1,10 @@
 import './App.css';
-import GetNews from './GetNews';
+import NewsList from './components/NewsList';
 
 function App() {
   return (
     <div className="App">
-      <GetNews />
+      <NewsList />
     </div>
   );
 }
