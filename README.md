@@ -35,3 +35,8 @@
 - API 호출 후 데이터 연동
   - useEffect에 등록하는 함수는 async가 되면 안된다.
   - 반환해야 하는 값은 cleanup 함수이기 때문
+
+## Part.4
+
+- 카테고리 UI + API 재호출까지 구현
+  - category data를 App에서 다른 컴포넌트에 뿌려주면서 공유해서 사용
