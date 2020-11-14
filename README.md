@@ -40,3 +40,16 @@
 
 - 카테고리 UI + API 재호출까지 구현
   - category data를 App에서 다른 컴포넌트에 뿌려주면서 공유해서 사용
+
+## Part.5
+
+- react-router-dom 적용
+
+  - useState이 아닌 리액트 라우터의 URL 파라미터로 관리
+
+- `/:category?`
+
+  - 맨 뒤 ?의 의미는 category 값이 선택적(optional)이라는 의미다. 있을 수도 있고 없을 수도 있다는 뜻
+  - category URL 파라미터가 없다면 all을 선택한 것으로 간주한다.
+
+- styled-components를 사용할 때 특정 컴포넌트에 적용한다면 ` styled(컴포넌트이름)`` `
